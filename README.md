@@ -15,3 +15,6 @@ Elementos principales de la página **Logo del sitio web **Título del sitio web
     
 web:
 https://elif-cotton.github.io/challengeone.github.io/
+
+![image](https://github.com/Elif-cotton/challengeone.github.io/assets/128503850/765577bc-d459-49db-8fbf-357c729ba73d)
+
