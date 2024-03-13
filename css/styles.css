@@ -1,0 +1,192 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #ECF9F9;
+}
+
+header{
+    padding: 20px;
+    background: #ECF9F9;
+}
+.box{
+    width: 940px;
+    position: relative;
+    margin: 0 10px;  /*0 superior e inferior, auto bordes*/  
+
+    display: flex;
+    align-items: center;
+}
+h1.title {
+    position: absolute;
+    left: 75%;
+    transform: translateX(-50%);
+    font-size: 50px;
+    font-weight: bold;
+    
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    
+}
+  
+
+#container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#column1, #column2 {
+    width: 45%;
+    height: 100%;
+}
+
+#column1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#inputText {
+    width: 100%;
+    height: 300px;
+    margin: 10px;
+    margin-left: 30px;
+    font-size: 20px;
+    
+}
+
+#uppercaseMessage{
+    display: none; 
+    color: red; 
+    font-weight: bold;
+    margin-left: 40px;
+}
+.message-container::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    background-image: url("/img/advertencia.png");
+    background-size: contain;
+  }
+
+#smallText {
+    font-size: 12px;
+    display: flex;
+    justify-content: end;
+}
+
+#buttonContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#encryptButton, #decryptButton, #clearButton {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 60px 10px 30px 80px;
+    color: white;
+    background-color: rgb(15, 15, 137);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#encryptButton:hover,  #copyButton:hover{
+    /* Efecto al pasar el mouse por encima */
+    transform: scale(1.3); /* Agrandar*/
+    background-color: orange; /* Cambiar a color amarillo */
+    transition: 0.2s ease-in-out; /* Duración y tipo de transición */
+} 
+
+
+#column2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+    margin: 12px 15px 20px;
+    border-radius: 15px;
+}
+
+#image {
+    width: 60%;
+    height: auto;
+    margin: 0 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+#noMessage {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#inputTextCopy {
+    font-size: 20px;
+    margin: 20px 10px;
+}
+
+#copyButton {
+    display: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    background-color: rgb(15, 15, 137);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#decryptButton, #clearButton, #copyButton:disabled {
+    background-color: #ccc;
+    color: #666;
+}
+
+
+footer{
+    text-align: center;
+    background: url(/img/bg.jpg);  /*repite la imagen n veces*/
+    padding: 40px;
+}
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 40px 10px 10px 10px;
+    font-weight: bold;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .box{
+        width: 100%;
+    }
+    #container {
+        flex-direction: column;
+    }
+
+    #column1, #column2 {
+        width: 100%;
+    }
+
+    #inputText {
+        height: 200px;
+    }
+
+    #buttonContainer {
+        justify-content: center;}
+
+    #encryptButton, #decryptButton, #clearButton {
+        margin: 20px 0;
+    }
+
+    #image {
+        width: 80%;
+    }
+}
+
