@@ -4,7 +4,7 @@
 
 
 
-##Desafío es  hacer un Encriptador de Texto.
+## Desafío es  hacer un Encriptador de Texto.
 Función es encriptar y desencriptar texto ingresado.
 
 ```python
@@ -14,13 +14,13 @@ Función es encriptar y desencriptar texto ingresado.
 **Campo para el texto, que va a ser encriptado/desencriptado
 **Un botón para encriptar
 **Un botón para desencriptar
-** Un botón para borrar texto
-** Un botón para copiar texto
+**Un botón para borrar texto
+**Un botón para copiar texto
 **Área para mostrar el texto encriptado/desencriptado
 **Pie de página.
 ```
 
-##Para este desafío se utilizó:
+## Para este desafío se utilizó:
 ```python
     HTML
     CSS
