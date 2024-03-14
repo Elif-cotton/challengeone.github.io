@@ -22,14 +22,14 @@ Función es encriptar y desencriptar texto ingresado.
 
 ## Para este desafío se utilizó:
 ```python
-    HTML
-    CSS
-    Javascript
+   - HTML
+   - CSS
+   - Javascript
 ```
     
 ## Web: 
 
-[ENCRIPTADOR] (https://elif-cotton.github.io/challengeone.github.io/)
+![ENCRIPTADOR] (https://elif-cotton.github.io/challengeone.github.io/)
 
 ![image](https://github.com/Elif-cotton/challengeone.github.io/assets/128503850/765577bc-d459-49db-8fbf-357c729ba73d)
 
